@@ -241,3 +241,50 @@ ournal
 Сьогодні почав дивитись фільм Bubble Boy, дуже прикольний. Думаю ввечорі додивлюсь. Подивився десь буквально хвилин 10. Зараз планую трохи поробити LeetCode.
 
 На годиннику 03:42. Я вирішив лише одну з трьох проблем на LeetCode. Зараз піду спробую трохи поробити DSA JS на FreeCodeCamp. Сподіваюсь хоч там не буду настільки нікчемним.
+
+04:16. Мої вітання, друже. Вирішив трохи попитати ChatGPT шоб повчив він мене JS. Дуже давно не заходив на їх сайт. Ну як дуже давно, десь місяць мабуть. Досить непогано пояснює, і, що мене приємно здивувало, якимось чином він пам'ятає весь контекст нашої розмови. Це чудово і дуже корисно. Поки навіть здається шо це краще за Claude. Хоча Claude класний тим шо він може файли приймати як інпут. А тут ні. Хоча наче як теж непогано. Вчимо з ним якісь штуки з JS. Поки нормас, але мабуть зроблю зара невеличку перерву, вже цілу годину кодю і навчаюсь. Зара мабуть піду трохи подрукую на Monkeytype. Осьо шо я написав йому в якості практики, до речі:
+
+```javascript
+const add = (a, b) => {
+  return a + b;
+};
+
+const multiplyByTwo = (x) => x * 2;
+
+const greet = (person = `Hello, ${person}`);
+
+const getFullName = (firstName, lastName, middleName = "") =>
+  `${lastName} ${firstName} ${middleName}`;
+
+const user = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 30,
+  address: {
+    city: "New York",
+    country: "USA",
+  },
+};
+
+const {
+  firstName,
+  lastName,
+  address: { city },
+} = user;
+const userInfo = { firstName, lastName, city, isAdult: true };
+
+class Rectangle {
+  constructor(width, height) {
+    this.width = width;
+    this.height = height;
+  }
+
+  getArea() {
+    return this.width * this.height;
+  }
+}
+const rectangle = new Rectangle(5, 10);
+console.log(rectangle.getArea());
+```
+
+Так шо якось так. На вулиці, і, як результат, у кімнаті, неймовірно спекотно. Зара мабуть відкрию двері, бо сиджу блін з зачиненими. Давай, друже, ще зайду пізніше.
