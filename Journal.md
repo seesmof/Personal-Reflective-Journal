@@ -1249,7 +1249,7 @@ async def on_message(message):
 
 ```
 
-№№№№№№ 8 лютого 2023
+###### 8 лютого 2023
 
 > Танки прибудуть якнайшвидше, — Ріші Сунак.
 
@@ -1297,7 +1297,7 @@ There are numerous ways to saturate yourself without meat. Here are some ideas:
 
 When it comes to finding alternatives to meat, there are plenty of options with the same level of saturation. Some of these options include tofu, tempeh, seitan, beans, and lentils. All of these plant-based proteins provide a similar level of satiety as meat.
 
-№№№№№№ 9 лютого 2023
+###### 9 лютого 2023
 
 > Загроза Європі сьогодні – це диктатор із божевільними запасами радянської зброї та підживленням зброї від інших диктатур, зокрема іранського режиму, – Зеленський під час виступу у Європарламенті
 
@@ -1357,7 +1357,7 @@ Finally, connect with other people. Whether it's through talking to a friend or 
 
 By taking these steps, you will be able to start feeling better and be less miserable.
 
-№№№№№№ 13 лютого 2023
+###### 13 лютого 2023
 
 > Система супутникового зв'язку Starlink продовжує працювати на лінії фронту в Україні, – засновник компанії SpaceX Ілон Маск.
 
@@ -1482,7 +1482,7 @@ Finally, it is important to consider that the knocking sound could be caused by 
 
 No matter what the cause of the knocking sound is, it is important to take steps to reduce the noise. Insulating the walls and ceiling can help absorb sound, and using sound machines or white noise can help mask the sound. You may also want to contact your landlord or building manager to investigate the source of the noise and take any necessary steps to fix the issue.
 
-№№№№№№ 14 лютого 2023
+###### 14 лютого 2023
 
 > Резніков натякнув, що Україні передадуть винищувачі Су-27
 
@@ -1616,7 +1616,7 @@ For black, some of the best openings include the French Defense, the Caro-Kann D
 - Sunset Hills
 - Moonrise County
 
-№№№№№№ 15 лютого 2023
+###### 15 лютого 2023
 
 Ukraine is located in the temperate climate zone. The climate is generally mild, with warm summers and mild winters. This makes it an ideal place to live and do business. The country also has a lot of natural resources and a wide variety of landscapes, from mountain ranges to beaches, which provides a great opportunity for business and tourism.
 
@@ -1713,7 +1713,7 @@ It is possible that the problem is related to chat permissions. Check the permis
 
 Adding a delay before sending the next message can be done using the `time.sleep()` function. This function takes in an argument of the number of seconds to wait before sending the next message. For example, to add a delay of 5 seconds before sending the next message: `time.sleep(5)`. It is important to note that this function is based on the local time of your system and not the time of the chat.
 
-№№№№№№ 16 лютого 2023
+###### 16 лютого 2023
 
 > ЄС у річницю вторгнення заборонить експорт унітазів на територію Росії, – Euobserver.
 
@@ -1846,6 +1846,328 @@ def days_until(ctx):
 8. The Revenant (2015)
 9. Mad Max: Fury Road (2015)
 10. Ex Machina (2014)
+
+###### 17 лютого 2023
+
+> Прем'єр-міністр Нідерландів Марк Рютте прибув до Києва
+
+> Український офіс Auchan вимагає пояснень від керівництва французької мережі щодо того, чи дійсно підрозділ компанії постачає допомогу армії країни-агресорки
+
+> Прем'єр Японії запросив Зеленського 24 лютого взяти участь в онлайн-саміті G7, – Kyodo.
+
+> Звільнення Кримського півострова від окупації, є лише питанням часу, — представник ГУР МОУ.
+
+1. [Kurzgesagt – In a Nutshell](https://www.youtube.com/user/Kurzgesagt) – Kurzgesagt – In a Nutshell is an educational YouTube channel that covers a wide range of topics in science, technology, and education.
+2. [Veritasium](https://www.youtube.com/user/1veritasium) – Veritasium is a science and engineering YouTube channel that focuses on science experiments, engineering technology, and educational videos.
+3. [Smarter Every Day](https://www.youtube.com/user/destinws2) – Smarter Every Day is a YouTube channel that focuses on science, engineering, and technology. It features interviews with experts, experiments, and demonstrations.
+4. [SciShow](https://www.youtube.com/user/scishow) – SciShow is a science and technology YouTube channel that covers a wide range of topics, from biology and chemistry to physics and mathematics.
+5. [Science Channel](https://www.youtube.com/user/ScienceChannel) – Science Channel is an educational YouTube channel that covers a wide range of topics, from nature and evolution to space exploration and the latest technology.
+6. Kurzgesagt – In a Nutshell: https://www.youtube.com/user/Kurzgesagt
+7. Physics Girl: https://www.youtube.com/user/physicswoman
+8. Veritasium: https://www.youtube.com/user/1veritasium
+9. PBS Space Time: https://www.youtube.com/user/pbs spacetime
+10. RealLifeLore: https://www.youtube.com/user/RealLifeLore
+
+- [Supercar Blondie](https://www.youtube.com/channel/UCGAbXQ2Qs_9X-LsE_oFJ7wg) - Supercar Blondie is a YouTube channel that showcases luxury cars. The channel is run by Alexandra Mary Hirschi and her team and they produce content covering topics such as supercar reviews, car events, and road trips.
+- [The Smoking Tire](https://www.youtube.com/user/TheSmokingTire) - The Smoking Tire is a channel that covers car reviews and car culture. Hosted by Matt Farah, the channel produces videos about different cars, from classic cars to modern supercars.
+- [Car Throttle](https://www.youtube.com/user/CarThrottle) - Car Throttle is one of the longest-running car channels on YouTube. Founded by Alex Kersten, the channel produces content about cars and car culture, from reviews and vlogs to shop tours and events.
+- [The School of Life](https://www.youtube.com/channel/UC7IcJI8PUf5Z3zKxnZvTBog) – This channel offers videos exploring the different aspects of psychology and philosophy with a focus on self-improvement.
+- [The Psych Show](https://www.youtube.com/channel/UCq3q3KvXcHtG_xRxRx2Q2yQ) – This channel provides educational videos about psychology and mental health topics.
+- [Psych2Go](https://www.youtube.com/channel/UC6PzDVVFo6PneG4E9z9XkMg) – This channel offers videos about psychology, mental health, and self-care topics to help viewers understand themselves and the world around them better.
+- [The Brain Scoop](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) – This channel provides educational videos about neuroscience and psychology topics.
+- [AsapSCIENCE](https://www.youtube.com/channel/UCtNdZrjjurSTFv-JgvQjssw) – This channel offers videos about the science and psychology behind everyday topics.
+
+Here are some great YouTube channels that make content about mysteries and conspiracy theories:
+
+- [Lunar Logic](https://www.youtube.com/channel/UCuwN_mSHEZP8TBZjKL-uLFA) - Lunar Logic is a channel dedicated to exploring unsolved mysteries and conspiracies.
+- [Thinking Allowed](https://www.youtube.com/user/thinkingallowedtv) - Thinking Allowed is a channel focused on exploring the paranormal, ancient mysteries, alternative histories and other strange phenomena.
+- [Unexplained Mysteries](https://www.youtube.com/user/UnexplainedMysteries) - Unexplained Mysteries is a channel dedicated to exploring unsolved mysteries and the unexplained.
+- [Conspiracy Theories](https://www.youtube.com/user/conspiracytheoryd) - Conspiracy Theories is a channel that focuses on uncovering the truth behind the world's most controversial topics.
+- [The Hidden Underbelly](https://www.youtube.com/channel/UCVjN5r6U2QNU5_zU5X6EiSw) - The Hidden Underbelly is a channel exploring the darker side of the world, from unsolved murders to secret societies.
+- **Crash Course** is an educational YouTube channel created by the Green brothers, Hank and John Green, that features a wide range of topics such as history, literature, science, and more. The videos are well-produced, informative, and entertaining. https://www.youtube.com/user/crashcourse
+- **CGP Grey** is a YouTube channel created by CGP Grey, a former professional musician and current Internet personality. This channel produces videos about current events, politics, economics, and technology. CGP Grey's videos are well-researched and thought-provoking. https://www.youtube.com/user/CGPGrey
+- **Kurzgesagt – In a Nutshell** is a YouTube channel that produces videos about science, philosophy, and technology. The videos are presented in an entertaining way and have been praised for their high production quality and detailed animations. https://www.youtube.com/user/Kurzgesagt
+
+Organizing your browser's favorite bar is a great way to keep your most-used websites, bookmarks, and links easily accessible. Here are some tips to help you organize and name your favorite bar items:
+
+1. **Group items by category:** Group your favorite bar items into categories such as Social Media, Shopping, News, Entertainment, etc. This will make it easier to find what you're looking for without having to search through a long list of items.
+2. **Name items with descriptive titles:** Give each item a descriptive name that accurately reflects what it is. For example, if you have a link to a shopping website, you might name it "Amazon Shopping" or "Walmart Shopping".
+3. **Organize items alphabetically:** If you have a lot of items in your favorite bar, arrange them alphabetically so you can quickly find what you're looking for.
+4. **Make use of folders and sub-folders:** Create folders and sub-folders to help you organize your favorite items. For example, you could have a folder for Social Media, with sub-folders for each social media platform.
+5. **Keep your favorite bar updated:** As you come across new websites and links, add them to your favorite bar. This will help keep your favorites organized and up-to-date.
+
+By following these tips, you can easily organize and name your browser's favorite bar items. This will make it easier to quickly find what you're looking for.
+
+Here is a complete list of categories to organize your browser's favorites bar:
+
+1. Work-Related
+2. Social Media
+3. Shopping
+4. News
+5. Entertainment
+6. Music
+7. Personal
+8. Education
+9. Financial
+10. Travel
+
+Adding a delay to a Python program is a great way to ensure that specific tasks are executed at a predetermined time. There are several ways to achieve this, depending on the desired result.
+
+The simplest way is to use the `time.sleep()` function. This function will cause the program to pause for the number of seconds specified. For example, `time.sleep(10)` will cause the program to wait for 10 seconds before executing the next line of code.
+
+Another option is to use the `datetime` module. This module allows you to set a specific date/time for when the program should execute a certain task. For example, you can use the `datetime.datetime.now()` function to get the current date and time, and then use the `datetime.timedelta()` function to add a specific amount of time in seconds, minutes, or hours to it. You can then use `datetime.datetime.strftime()` to convert the resulting date/time to a string and compare it against the current date/time to check if the task should be executed.
+
+You can also use `threading.Timer()` to create a timer that will execute a certain task at a certain time. This is useful if you want to run the task at regular intervals.
+
+Finally, you can use the `schedule` module to set a task to run at a certain time. This is similar to the `threading.Timer()` approach, but it is more flexible and easier to use.
+
+No matter which approach you take, adding a delay to a Python program is a powerful way to control the execution of specific tasks.
+
+**How to Create a Python Bot to Send a Message Every 20 Minutes on TwitchIO**
+
+Do you need to keep your TwitchIO viewers engaged but don't have the time or energy to do it manually? You can create a simple Python bot to do the job for you. This tutorial will walk you through the steps of creating a Python bot to send a message every 20 minutes on TwitchIO.
+
+**Step 1: Install Python and Necessary Libraries**
+
+First, you must install Python on your system and the necessary libraries. Python is a programming language that can be used to write scripts. To do this, you can use any of the popular Python distributions available online.
+
+Next, you will need to install the TwitchIO library. This can be done by running the following command in your terminal:
+
+`pip install twitchio`
+
+**Step 2: Set Up Your Bot**
+
+Once you have the necessary software and libraries installed, you will need to create a TwitchIO bot. You can do this by creating a file called `bot.py` and pasting the following code into it:
+
+```
+import twitchio
+
+bot = twitchio.Bot(
+  irc_token = ‘<YOUR-IRC-TOKEN>’,
+  client_id = ‘<YOUR-CLIENT-ID>’,
+  nick = ‘<YOUR-BOT-NICKNAME>’,
+  prefix = ‘!’,
+  initial_channels = [‘<YOUR-CHANNEL-NAME>’]
+)
+
+```
+
+You will need to replace each of the placeholders with your own details. The `irc_token` is the authentication token that TwitchIO provides for your bot. The `client_id` is the unique identifier for your application. The `nick` is the nickname that your bot will use on TwitchIO. The `prefix` is the character or set of characters that your bot will look for when parsing messages in chat. And the `initial_channels` is an array of channels that your bot should join when it starts up.
+
+**Step 3: Write Your Bot's Code**
+
+Now that you have your bot set up, you can start writing its code. The code should be written inside the main loop of your `bot.py` file. This loop is triggered every time a message is sent in chat.
+
+The first thing your bot should do is check if the message is addressed to it. To do this, you can use the `is_valid_command` method. This method will return `True` if the message starts with the prefix that you specified in the setup. If it does, then your bot should execute the command.
+
+```
+if bot.is_valid_command(message.content):
+  # execute command
+
+```
+
+If the message is not addressed to your bot, then you can have it send a message every 20 minutes. To do this, you will need to use the `sleep` function. This function will pause your bot for a specified amount of time.
+
+```
+import time
+
+while True:
+  # send message
+  time.sleep(60*20) # pause for 20 minutes
+
+```
+
+Inside the loop, you can have your bot send a message in the TwitchIO chat. To do this, you can use the `send` method.
+
+```
+bot.send(channel, ‘<YOUR-MESSAGE>’)
+
+```
+
+**Step 4: Run Your Bot**
+
+Once you have your bot set up and coded, you can run it by running the `bot.py` file. If everything has been set up correctly, your bot should join the specified channels and start sending messages every 20 minutes.
+
+If you're looking to add a function to your Twitch chat bot that will tell a user when they follow your channel, you can utilize Twitch's API and make a request to it.
+
+The first step is to register your app with Twitch, which you can do via the [Twitch Dev Site](https://dev.twitch.tv/). After you've registered your app, you'll need to create an access token, which will give you access to the Twitch API.
+
+Once you've done that, you can make a call to the [Twitch API](https://dev.twitch.tv/docs/api/reference/) to get the list of users who have followed your channel. You can use the `GET <https://api.twitch.tv/helix/users/follows`> endpoint to get the list of users who have followed your channel.
+
+You can then use the [TwitchIO library](https://github.com/TwitchIO/TwitchIO) to send a message to the user that they have followed your channel.
+
+Using this method, you can easily add a function to your Twitch chat bot that will tell a user when they follow your channel.
+
+```
+# Import necessary modules
+import requests
+
+# Define variables
+user_id = "<user_id>"
+channel_id = "<channel_id>"
+
+# Make the request
+url = "<https://api.twitch.tv/helix/users/follows?first=1&to_id=>" + channel_id + "&from_id=" + user_id
+response = requests.get(url, headers={"Client-ID": "<your_client_id>"})
+
+# Parse data
+data = response.json()
+follow_date = data['data'][0]['followed_at']
+
+# Print the result
+print("User {} followed channel {} on {}".format(user_id, channel_id, follow_date))
+
+```
+
+**Import necessary modules**
+
+import requests
+
+**Define variables**
+
+client_id = "<your_client_id>"
+
+**Get user_id and channel_id via API request**
+
+url_user = "https://api.twitch.tv/helix/users?login=" + username
+response_user = requests.get(url_user, headers={"Client-ID": client_id})
+data_user = response_user.json()
+user_id = data_user['data'][0]['id']
+
+url_channel = "https://api.twitch.tv/helix/users/follows?first=1&from_id=" + user_id
+response_channel = requests.get(url_channel, headers={"Client-ID": client_id})
+data_channel = response_channel.json()
+channel_id = data_channel['data'][0]['to_id']
+
+**Make the request**
+
+url = "https://api.twitch.tv/helix/users/follows?first=1&to_id=" + channel_id + "&from_id=" + user_id
+response = requests.get(url, headers={"Client-ID": client_id})
+
+**Parse data**
+
+data = response.json()
+follow_date = data['data'][0]['followed_at']
+
+**Print the result**
+
+print("User {} followed channel {} on {}".format(user_id, channel_id, follow_date))
+
+**Import necessary modules**
+
+import requests
+
+**Define variables**
+
+user_id = "<user_id>"
+channel_name = "PixelFedya"
+
+**Make the requests**
+
+url_user = "https://api.twitch.tv/helix/users?login=" + user_id
+response_user = requests.get(url_user, headers={"Client-ID": "<your_client_id>"})
+user_data = response_user.json()
+user_id = user_data['data'][0]['id']
+
+url_channel = "https://api.twitch.tv/helix/users?login=" + channel_name
+response_channel = requests.get(url_channel, headers={"Client-ID": "<your_client_id>"})
+channel_data = response_channel.json()
+channel_id = channel_data['data'][0]['id']
+
+url_follow = "https://api.twitch.tv/helix/users/follows?first=1&to_id=" + channel_id + "&from_id=" + user_id
+response_follow = requests.get(url_follow, headers={"Client-ID": "<your_client_id>"})
+
+**Parse data**
+
+data = response_follow.json()
+follow_date = data['data'][0]['followed_at']
+
+**Print the result**
+
+print("User {} followed channel {} on {}".format(user_id, channel_id, follow_date))
+
+```
+# Function to get the follow age of a user
+def get_follow_age(user):
+    # Make API request to get the user ID of the user
+    user_id = twitch_api.get_user_id(user)
+
+    # Make API request to get the follow age of the user
+    follow_age = twitch_api.get_follow_age(user_id)
+
+    # Return the follow age
+    return follow_age
+
+```
+
+**How to Write a Python Program That Will Press Enter Indefinitely**
+
+Writing a Python program that will press the Enter key indefinitely requires a few steps. First, you will need to import the `time` library. This library contains the `sleep()` function, which allows you to pause the program for a certain amount of time.
+
+```
+import time
+
+```
+
+Next, you will need to write a loop that will run indefinitely. This can be done using a `while` loop, which will cause the loop to run until a certain condition is met. In this case, the condition is always `True`, which means that the loop will run until it is manually stopped.
+
+```
+while True:
+
+```
+
+Finally, you will need to use the `time.sleep()` function to add a pause and the `input()` function to press the Enter key. The `time.sleep()` function takes a number of seconds as an argument, and `input()` requires no arguments.
+
+```
+    time.sleep(2)
+    input()
+
+```
+
+Putting it all together, the code for a Python program that will press the Enter key indefinitely looks like this:
+
+```
+import time
+
+while True:
+    time.sleep(2)
+    input()
+
+```
+
+This code will press the Enter key every two seconds until the program is manually stopped.
+
+```
+# press_enter_forever.py
+import keyboard
+
+while True:
+    keyboard.send('enter')
+
+```
+
+**How to Make a Python EXE File**
+
+Making a Python executable file is a great way to share your Python scripts with others who may not have Python installed on their systems. An executable file allows you to run the program without having to go through the process of writing and running the code in the Python interpreter. This can be especially useful for distributing applications to users who may not have a Python interpreter installed on their systems.
+
+In order to create an executable file from a Python script, you will need to use a tool such as py2exe. Py2exe is a Python module that can be used to convert Python scripts into executable files. The process is fairly simple and can be done in a few steps.
+
+First, you will need to install the py2exe module. This can be done by downloading the file from the project's website and running it. Once the installation is complete, you will need to create a setup script for your project. The setup script is a Python script that contains instructions for py2exe to create the executable file.
+
+Next, you will need to compile the executable file from the setup script. This can be done by running the command “py2exe [setup.py](http://setup.py/)” in the command line. When the compilation is complete, you will have an executable file that is ready to be used.
+
+Finally, you can distribute the executable file to users who want to run your Python script without having to install Python. The executable file can be packaged into an installer or simply sent as a stand-alone file.
+
+Creating an executable file from a Python script is a great way to share your scripts with others and ensure that they are able to run the program without any issues. Py2exe is a powerful tool that makes it easy to create executable files from Python scripts.
+
+1. The Impact of Climate Change on Human Health
+2. The Role of Renewable Energy in Reducing Carbon Emissions
+3. The Benefits of Sustainable Agriculture
+4. The Benefits of Plant-Based Diets for the Environment
+5. The Effects of Air Pollution on Human Health
+6. The Future of Electric Vehicles
+7. The Impact of Deforestation on Biodiversity
+8. The Impacts of Plastic Pollution on Marine Life
 
 ###### 01 травня 2023
 
