@@ -2169,6 +2169,269 @@ Creating an executable file from a Python script is a great way to share your sc
 7. The Impact of Deforestation on Biodiversity
 8. The Impacts of Plastic Pollution on Marine Life
 
+###### 18 лютого 2023
+
+```python
+import os
+import json
+
+from pathlib import Path
+from dotenv import load_dotenv
+from os.path import join, dirname
+from twitchio.ext import commands
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+dotenv_path = join(dir_path, '.env')
+load_dotenv(dotenv_path)
+
+# credentials
+TMI_TOKEN = os.environ.get('TMI_TOKEN')
+CLIENT_ID = os.environ.get('CLIENT_ID')
+BOT_NICK = os.environ.get('BOT_NICK')
+BOT_PREFIX = os.environ.get('BOT_PREFIX')
+CHANNEL = os.environ.get('CHANNEL')
+
+JSON_FILE = str(os.path.dirname(os.path.realpath(__file__))) + '/data.json'
+
+bot = commands.Bot(
+		irc_token="oauth:yvcgx0629cd4ay324yb8ptlwrbzg71",
+    client_id="jdpik06wovybvidhcwd1wplwlgf8cv",
+    nick="wuyodo",
+    prefix="!",
+    initial_channels="mike09steelers",
+    client_secret="7c09zauxs7go7d3nnv07v0njueuizv",
+    token="4wv037ul6zgndhy9n6nw2fswhbtjc1"
+)
+
+@bot.event
+async def event_ready():
+    """ Runs once the bot has established a connection with Twitch """
+    print(f"{BOT_NICK} is online!")
+
+@bot.event
+async def event_message(ctx):
+    """
+    Runs every time a message is sent to the Twitch chat and relays it to the
+    command callbacks
+    """
+
+    # the bot should not react to itself
+    if ctx.author.name.lower() == BOT_NICK.lower():
+        return
+
+    # relay message to command callbacks
+    await bot.handle_commands(ctx)
+
+    print(f"\n{ctx.author.name}: {ctx.content}")
+
+@bot.command(name='інфа')
+async def show_info(ctx):
+    await ctx.send(f"@{ctx.author.name}, мене звати ЩІЩ-Бот і я Ваш персональний помічник в чаті Піксельного. Наявні команди: \"!тг\", \"!дн @нік\", \"!шанс\", \"!єнот\", \"!щіщ\"! Якщо Ви маєте ідеї стосовно мого покращення, будь ласка напишіть їх через \"!додай\" і це обов'язково допоможе мені стати краще.")
+
+@bot.command(name='тг')
+async def telegram_show(ctx):
+    await ctx.send(f"@{ctx.author.name}, аби не пропускати стріми Піксельного, підписуйтесь на наш Телеграм канал за посиланням @pixelfedya в пошуку Телеграму!")
+
+@bot.command(name='єнот')
+async def give_raccoon(ctx):
+    await ctx.send(f"@{ctx.author.name}, на єнота RaccAttack")
+
+@bot.command(name='щіщ')
+async def say_sheesh(ctx):
+    await ctx.send(f"ЩІІІІЩ")
+
+@bot.command(name='додай')
+async def add_feature(ctx):
+    await ctx.send(f"@seesmof, {ctx.content[6:]}, бігом додавати!")
+
+@bot.command(name='дн')
+async def birthday_congrats(ctx):
+    username = ctx.content[3:]
+    # Congratulate the user
+    greetings = ['З днем народження! Сьогодні день, коли здійснюються Ваші мрії і виконуються Ваші бажання. У цей особливий день я бажаю Вам щастя та успіху на все життя. Нехай благополуччя, радість і любов оточують Вас сьогодні і завжди. Всього найкращого в цей особливий день!', 'З Днем народження! Це Ваш особливий день, і я бажаю Вам щасливого святкування! Нехай цей день буде наповнений радістю, міцним здоров`ям і великою удачею. Нехай наступний рік буде сповнений успіхом та щастям. Насолоджуйтесь особливими моментами свого дня народження та цінуйте любов і тепло своїх близьких. Нехай наступний рік буде найкращим!',
+                 'З Днем народження! Нехай цей особливий день буде наповнений радістю і сміхом. Нехай Ваше серце буде переповнене щастям, а дні будуть сповнені чудовими моментами. Бажаємо удачі та успіхів у всіх Ваших починаннях. Фантастичного дня!!', 'З Днем народження! Нехай цей особливий день буде наповнений радістю та світлими почуттями. Бажаємо Вам всього найкращого в житті, нехай здійсняться всі Ваші мрії та прагнення. Нехай наступний рік буде надзвичайно успішним!', 'Вітаємо з днем народження у цей особливий день! Нехай цей рік принесе Вам багато позитиву, радості та успіху. Бажаю Вам всього найкращого в житті, і нехай всі Ваші мрії здійсняться. Гарного дня та чудового наступного року!', 'Вітаємо з днем народження! Нехай цей особливий день буде наповнений морем веселощів, любові та сміху. Бажаю, щоб цей рік був чудовим і щоб Ви досягли всіх своїх цілей. Бажаю прекрасного життя, сповненого благословень. З днем народження!']
+    await ctx.send(f'{username}, {random.choice(greetings)}')
+
+@bot.command(name='шанс')
+async def give_chance(ctx):
+    chance = random.randint(1, 100)
+    await ctx.send(f"@{ctx.author.name}, вірогідність цього становить {chance}%.")
+
+if __name__ == "__main__":
+    # launch bot
+    bot.run()
+```
+
+###### 19 лютого 2023
+
+> ❕Топ-генерал НАТО в Європі підтримує надання Україні F-16 та ATACMS, — Politico з посиланням на його брифінг.
+
+> Чехія вперше за місяць взагалі не імпортувала російський газ, — міністерство промисловості.
+
+> Міністри ЄС зустрінуться, щоб вирішити проблему з боєприпасами для України, — глава дипломатії ЄС Жозеп Боррель.
+
+> 21 лютого прем’єр-міністр Італії відвідає Київ і зустрінеться із Зеленським, — Il Fatto Quotidiano.
+
+> У ЄС підтримують спільну закупівлю снарядів для України, рішення може бути в березні, – Bloomberg.
+
+```python
+import os
+import json
+
+from pathlib import Path
+from dotenv import load_dotenv
+from os.path import join, dirname
+from twitchio.ext import commands
+
+import time
+import asyncio
+import openai
+import math
+import random
+
+# Set up the OpenAI API key and model ID
+openai.api_key = "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"
+model_id = "text-davinci-003"
+
+def generate_response(input_text):
+    response = openai.Completion.create(
+        engine=model_id,
+        prompt=input_text,
+        max_tokens=530,
+        n=1,
+        stop=None,
+        temperature=0.5,
+    )
+    text = response.choices[0].text.strip()
+    return text
+
+def check_for_letters(text, letters):
+    for letter in letters:
+        if letter in text:
+            return True
+    return False
+
+dir_path = os.path.dirname(os.path.realpath(__file__))
+dotenv_path = join(dir_path, '.env')
+load_dotenv(dotenv_path)
+
+# credentials
+TMI_TOKEN = os.environ.get('TMI_TOKEN')
+CLIENT_ID = os.environ.get('CLIENT_ID')
+BOT_NICK = os.environ.get('BOT_NICK')
+BOT_PREFIX = os.environ.get('BOT_PREFIX')
+CHANNEL = os.environ.get('CHANNEL')
+
+JSON_FILE = str(os.path.dirname(os.path.realpath(__file__))) + '/data.json'
+
+bot = commands.Bot(
+    irc_token=TMI_TOKEN,
+    client_id=CLIENT_ID,
+    nick=BOT_NICK,
+    prefix=BOT_PREFIX,
+    initial_channels=[CHANNEL]
+)
+
+@bot.event
+async def event_ready():
+    print(f"{BOT_NICK} is online at {CHANNEL}!")
+
+@bot.event
+async def event_message(ctx):
+    # the bot should not react to itself
+    if ctx.author.name.lower() == BOT_NICK.lower():
+        print(f"\nBOT: {ctx.content}")
+        return
+
+    if ctx.content.startswith("@wuyodo"):
+        # Strip out the "!гпт" command and pass the remaining text to the GPT-3 model
+        input_text = ctx.content[len("@wuyodo"):].strip()
+        input_text += " Дай відповідь Українською мовою."
+        output_text = generate_response(input_text)
+        try:
+            await ctx.channel.send("@" + ctx.author.name + ", " + output_text)
+        except Exception as e:
+            await ctx.channel.send("@" + ctx.author.name + ", Ой-ой... Моє повідомлення не вмістилось в чат. Спробуйте трохи пізніши або змініть свій запит.")
+
+    # relay message to command callbacks
+    await bot.handle_commands(ctx)
+
+    print(f"\n{ctx.author.name}: {ctx.content}")
+
+    text = ctx.content
+    letters = ["э", "ы", "ё", "ъ"]
+    if check_for_letters(text, letters):
+        print("DETECTION")
+        await ctx.channel.send(f"@{ctx.author.name}, йой, козаче, кацапська заборонена в цьому чаті cmonBruh")
+
+@bot.command(name='інфа')
+async def show_info(ctx):
+    await ctx.send(f"@{ctx.author.name}, мене звати ЩІЩ-Бот і я Ваш персональний помічник в чаті Піксельного. Наявні команди: \"!гпт\", \"!тг\", \"!шанс\", \"!дн @нік\", \"!єнот\", \"!щіщ\"! Якщо Ви маєте ідеї стосовно мого покращення, будь ласка напишіть їх через \"!додай\" і це обов'язково допоможе мені стати краще. Щоб використати ChatGPT, просто тегніть @wuyodo і Ви отримаєте відповідь на питання GlitchCat")
+
+@bot.command(name='тг')
+async def telegram_show(ctx):
+    await ctx.send(f"@{ctx.author.name}, аби не пропускати стріми Піксельного, підписуйтесь на наш Телеграм канал за посиланням @pixelfedya в пошуку Телеграму TehePelo")
+
+@bot.command(name='єнот')
+async def give_raccoon(ctx):
+    await ctx.send(f"@{ctx.author.name}, на єнота RaccAttack")
+
+@bot.command(name='гпт')
+async def gpt_instruction(ctx):
+    await ctx.send(f"@{ctx.author.name}, для того, щоб отримати відповідь від ChatGPT, просто почніть Ваше повідомлення з @wuyodo і продовжіть Вашим питанням. Через деякий час ви отримаєте відповідь, згенеровану ботом ChatGPT :)")
+
+@bot.command(name='щіщ')
+async def say_sheesh(ctx):
+    await ctx.send(f"ЩІІІІЩ")
+
+@bot.command(name='окса')
+async def say_hi_to_oxa(ctx):
+    await ctx.send(f"Оксано, привіт!")
+
+@bot.command(name='додай')
+async def add_feature(ctx):
+    await ctx.send(f"@seesmof, {ctx.content[6:]}, бігом додавати!")
+
+@bot.command(name='дн')
+async def birthday_congrats(ctx):
+    username = ctx.content[3:]
+    # Congratulate the user
+    greetings = ['З днем народження! Сьогодні день, коли здійснюються Ваші мрії і виконуються Ваші бажання. У цей особливий день я бажаю Вам щастя та успіху на все життя. Нехай благополуччя, радість і любов оточують Вас сьогодні і завжди. Всього найкращого в цей особливий день!', 'З Днем народження! Це Ваш особливий день, і я бажаю Вам щасливого святкування! Нехай цей день буде наповнений радістю, міцним здоров`ям і великою удачею. Нехай наступний рік буде сповнений успіхом та щастям. Насолоджуйтесь особливими моментами свого дня народження та цінуйте любов і тепло своїх близьких. Нехай наступний рік буде найкращим!',
+                 'З Днем народження! Нехай цей особливий день буде наповнений радістю і сміхом. Нехай Ваше серце буде переповнене щастям, а дні будуть сповнені чудовими моментами. Бажаємо удачі та успіхів у всіх Ваших починаннях. Фантастичного дня!!', 'З Днем народження! Нехай цей особливий день буде наповнений радістю та світлими почуттями. Бажаємо Вам всього найкращого в житті, нехай здійсняться всі Ваші мрії та прагнення. Нехай наступний рік буде надзвичайно успішним!', 'Вітаємо з днем народження у цей особливий день! Нехай цей рік принесе Вам багато позитиву, радості та успіху. Бажаю Вам всього найкращого в житті, і нехай всі Ваші мрії здійсняться. Гарного дня та чудового наступного року!', 'Вітаємо з днем народження! Нехай цей особливий день буде наповнений морем веселощів, любові та сміху. Бажаю, щоб цей рік був чудовим і щоб Ви досягли всіх своїх цілей. Бажаю прекрасного життя, сповненого благословень. З днем народження!']
+    await ctx.send(f'{username}, {random.choice(greetings)}')
+
+@bot.command(name='шанс')
+async def give_chance(ctx):
+    chance = random.randint(1, 100)
+    await ctx.send(f"@{ctx.author.name}, вірогідність цього становить {chance}%.")
+
+if __name__ == "__main__":
+    # launch bot
+    bot.run()
+```
+
+###### 20 лютого 2023
+
+> Сьогодні день пам'яті Героїв Небесної Сотні
+> Дата є найтрагічнішою в історії Революції Гідності, цього дня на Майдані загинуло найбільше активістів.
+
+> ❗️Президент США Байден у Києві.
+
+> ❗️ Україна отримає новий пакет військової допомоги на $500 млн, який буде оголошено вже завтра, – Байден у Києві.
+> Допомога включатиме більше військового обладнання, в тому числі артилерійські боєприпаси, більше "Джавелінів" та гаубиць.
+
+> ❕CША запровадять нові санкції проти росії — їх оголосять впродовж тижня, – Білий дім.
+
+> Зеленський з Байденом говорили про зброю великої дальності та зброю, яку можуть надати Україні, хоча раніше її не постачали, – Reuters.
+
+> +820 дохлих росіян
+
+Так, фізра закінчилась, трохи подивились відео, як завжди, сподіваюсь шось викладуть у мудл, але поки нічого немає. Чекаємо лекцію з ООП, щііііііііщ, послухаємо хоч про класи, інкапсуляцію, поліморфізм, наслідування і такі всякі штуки. Йой, чекаємо, а поки пішов до Каті, хоч привітаюсь
+
+Слухаю лекцію з фізри. Запам’ятай Івана Піддубного, могутнього полтавського борця двадцятого століття.
+
+Здоров, чуваче. Ну шо, починається навчання, готовий? Буквально через 9 хвилин вже будеш слухати пари, так шо давай, не підведи і не злети зі стипендії. Давай, друже, вірю в тебе, їбашимо.
+
 ###### 01 травня 2023
 
 Здороу, чуваче! Давно не бачилися, але тепер я тут, бо випадок з інтернетом сьогодні довів що файли треба хостити виключно локально, саме тому я встановив цей новий додаток. Виглядає дуже прикольно, інтерфейс непоганий, є як на комп'ютері, так і на телефоні, тому дуже зручно працювати. Ну і звичайно, найголовніше, тут все працює абсолютно оффлайн, інтернету не потребує. Тому та, підказав мені, до речі, оцей новий пошуковик GptGo, не знаю чи то модель просто чатгпт, чи якась їхня власна, але відповідає все чітко файнюцько. Тому та, дякую пошуковику за таку гарну пораду. Ну а загалом якщо дивитись на поточний стан справ то все досить погано. Ти дуже сильно розслабився. Зовсім не робиш домашні завдання, хоч на пари заходиш. Потрібно зібратись з силами і, починаючи з завтрашнього дня, не гаяти час на якусь дурню, а нормально робити справи Плюс, ти ж не забувай що ти маєш самостійно навчатися фронту, тому обов'язково приділяй цьому увагу, бо за тебе це ніхто не зробе. Зара спитаю у бота що він думає стосовно того чого я такий розгублений останнім часом, почитаю і вже буду лягати Давай, друже, був радий бачити, до зустрічі, добраніч
