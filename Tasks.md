@@ -9,6 +9,7 @@
 
 ###### Coding
 
+- [ ] finish Pixoto photography website app
 - [ ] move all the minor projects to coding-doodles and reorganize stuff so that public repos are only the ones that contain some actual production ready projects
 - [ ] fork Habitica-Add-Task and create your own project based off of that
   - [ ] [repo](https://github.com/sardach/Habitica-Add-Task/tree/main)
