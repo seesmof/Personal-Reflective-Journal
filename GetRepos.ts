@@ -40,44 +40,47 @@ const allRepos = [
   "university",
 ];
 
-const temoryRepos = [
+const privateRepos = [
   "age-calculator-app",
-  "ai-greeting-generator",
-  "ber-ai-generative-art-platform",
-  "browser-games",
-  "chuck-norris-quotes-generator",
   "cities-skylines-mods",
+  "gcalendar-automation",
+  "personal-reflective-journal",
+  "python-twitchio-chat-bot",
+  "ss-group-project",
+  "ss-lab2",
+  "university",
+];
+
+const production = [
+  "leetcode-solutions",
+  "portfolio",
+  "ber-ai-generative-art-platform",
+  "specter-ross-legal-company-landing",
+  "standardista-machine-learning-workshop",
+  "twitch-ai-chatbot",
+  "training-program-guide",
+  "the-daily-chronice-news",
+  "my-hobby-site",
+  "klopotenko-clone",
+  "habitica-task-helper",
+  "frontend-mentor-solutions",
   "codewell-solutions",
   "free-code-camp-course",
   "freshcode-course",
-  "frontend-mentor-solutions",
-  "gcalendar-automation",
-  "habitica-task-helper",
   "internet-is-hard-web-course",
   "javascript-algorithms-data-structures_free-code-camp",
-  "klopotenko-clone",
-  "leetcode-solutions",
-  "my-hobby-site",
+];
+
+const codeDoodles = [
   "newsletter-sign-up-with-success-message-component",
   "nextjs-learning",
-  "personal-reflective-journal",
-  "portfolio",
   "productivity-flomodoro-app",
-  "python-twitchio-chat-bot",
   "react-memory-cards-game",
   "react-todo-app",
   "regex-golf",
   "robo-social-media-feed",
-  "seesmof",
   "shopping-cart-with-useReducer",
-  "specter-ross-legal-company-landing",
-  "ss-group-project",
-  "ss-lab2",
-  "standardista-machine-learning-workshop",
-  "telegram-send-daily-news-to-email",
-  "the-daily-chronice-news",
-  "training-program-guide",
-  "twitch-ai-chatbot",
+  "typescript-hello-world",
+  "ai-greeting-generator",
+  "chuck-norris-quotes-generator",
 ];
-
-const browserGames = ["typescript-hello-world"];
