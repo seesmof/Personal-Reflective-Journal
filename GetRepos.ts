@@ -1,33 +1,4 @@
-async function fetchRepositories() {
-  const token =
-    "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";
-
-  const baseurl = `https://api.github.com/user/repos`;
-
-  const response = await fetch(baseurl, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
-  });
-
-  if (!response.ok) {
-    throw new Error("Failed to fetch repositories");
-  }
-
-  const repositories = await response.json();
-  const names = repositories.map((repo) => repo.name);
-  return names;
-}
-
-fetchRepositories()
-  .then((repositories) => {
-    console.log(repositories);
-  })
-  .catch((error) => {
-    console.error(error);
-  });
-
-const repos = [
+const what = [
   "age-calculator-app",
   "ai-greeting-generator",
   "ber-ai-generative-art-platform",
@@ -58,4 +29,57 @@ const repos = [
   "seesmof",
   "shopping-cart-with-useReducer",
   "specter-ross-legal-company-landing",
+  "ss-group-project",
+  "ss-lab2",
+  "standardista-machine-learning-workshop",
+  "telegram-send-daily-news-to-email",
+  "the-daily-chronice-news",
+  "training-program-guide",
+  "twitch-ai-chatbot",
+  "typescript-hello-world",
+  "university",
 ];
+
+async function fetchRepositories() {
+  const token =
+    "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";
+  const perPage = 100; // Number of repositories per page
+
+  let page = 1;
+  let repositories = [];
+
+  while (true) {
+    const baseurl = `https://api.github.com/user/repos?page=${page}&per_page=${perPage}`;
+
+    const response = await fetch(baseurl, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error("Failed to fetch repositories");
+    }
+
+    const pageRepositories = await response.json();
+    repositories = repositories.concat(pageRepositories);
+
+    // Break the loop if the current page fetched less than the maximum per page
+    if (pageRepositories.length < perPage) {
+      break;
+    }
+
+    page++;
+  }
+
+  const names = repositories.map((repo: any) => repo.name);
+  return names;
+}
+
+fetchRepositories()
+  .then((names) => {
+    console.log(names);
+  })
+  .catch((error) => {
+    console.error(error);
+  });

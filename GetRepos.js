@@ -34,27 +34,92 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var what = [
+    "age-calculator-app",
+    "ber-ai-generative-art-platform",
+    "chuck-norris-quotes-generator",
+    "codewell-solutions",
+    "free-code-camp-course",
+    "frontend-mentor-solutions",
+    "javascript-algorithms-data-structures_free-code-camp",
+    "klopotenko-clone",
+    "leetcode-solutions",
+    "portfolio",
+    "robo-social-media-feed",
+    "seesmof",
+    "ss-group-project",
+    "standardista-machine-learning-workshop",
+    "the-daily-chronice-news",
+    "training-program-guide",
+    "twitch-ai-chatbot",
+];
+var repos = [
+    "age-calculator-app",
+    "ai-greeting-generator",
+    "ber-ai-generative-art-platform",
+    "browser-games",
+    "chuck-norris-quotes-generator",
+    "cities-skylines-mods",
+    "codewell-solutions",
+    "free-code-camp-course",
+    "freshcode-course",
+    "frontend-mentor-solutions",
+    "gcalendar-automation",
+    "habitica-task-helper",
+    "internet-is-hard-web-course",
+    "javascript-algorithms-data-structures_free-code-camp",
+    "klopotenko-clone",
+    "leetcode-solutions",
+    "my-hobby-site",
+    "newsletter-sign-up-with-success-message-component",
+    "nextjs-learning",
+    "personal-reflective-journal",
+    "portfolio",
+    "productivity-flomodoro-app",
+    "python-twitchio-chat-bot",
+    "react-memory-cards-game",
+    "react-todo-app",
+    "regex-golf",
+    "robo-social-media-feed",
+    "seesmof",
+    "shopping-cart-with-useReducer",
+    "specter-ross-legal-company-landing",
+];
 function fetchRepositories() {
     return __awaiter(this, void 0, void 0, function () {
-        var token, baseurl, response, repositories, names;
+        var token, perPage, page, repositories, baseurl, response, pageRepositories, names;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    token = "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";
-                    baseurl = "https://api.github.com/user/repos";
+                    token = "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";
+                    perPage = 100;
+                    page = 1;
+                    repositories = [];
+                    _a.label = 1;
+                case 1:
+                    if (!true) return [3 /*break*/, 4];
+                    baseurl = "https://api.github.com/user/repos?page=".concat(page, "&per_page=").concat(perPage);
                     return [4 /*yield*/, fetch(baseurl, {
                             headers: {
                                 Authorization: "Bearer ".concat(token),
                             },
                         })];
-                case 1:
+                case 2:
                     response = _a.sent();
                     if (!response.ok) {
                         throw new Error("Failed to fetch repositories");
                     }
                     return [4 /*yield*/, response.json()];
-                case 2:
-                    repositories = _a.sent();
+                case 3:
+                    pageRepositories = _a.sent();
+                    repositories = repositories.concat(pageRepositories);
+                    // Break the loop if the current page fetched less than the maximum per page
+                    if (pageRepositories.length < perPage) {
+                        return [3 /*break*/, 4];
+                    }
+                    page++;
+                    return [3 /*break*/, 1];
+                case 4:
                     names = repositories.map(function (repo) { return repo.name; });
                     return [2 /*return*/, names];
             }
@@ -62,8 +127,8 @@ function fetchRepositories() {
     });
 }
 fetchRepositories()
-    .then(function (repositories) {
-    console.log(repositories);
+    .then(function (names) {
+    console.log(names);
 })
     .catch(function (error) {
     console.error(error);
