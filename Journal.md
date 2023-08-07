@@ -3037,3 +3037,7 @@ just proposed mom to watch some movie in the evening, now gotta pick which one. 
 ###### 7 Aug 2023
 
 10:01. alright man, yesterday was a chill day so i haven't coded much but today is the beginning of the next week so we are back at it again.
+
+10:07. okay just checked some news. i honestly dont wanna check em anymore. cause everytime it just gets worse. so i guess imma stop from now. let me just delete all the news channels from telegram. and also i wanted to add a tasks.md file in here, cause i love the markdown language and the fact that these files are completely mine, and so i dont wanna store them in Habitica since they are not too comfortable to read, you know. so yeah, i wanna do that and also. oh i forgot what else i wanted to do but lets do at least that for now. i will leave habitica since i do like this daily routine stuff, so yeah. oh, also, i wanna figure out can i automatically turn down spotify music if any other sound source is playing.
+
+10:15. okay, deleting telegram stuff is done. now there's only stuff for studying and some memes or shenanigans. also, im wondering is there any plugin for vs code to paste in the current time instead of looking it up and typing it out manually like i do right now. so next we need a thing that will automatically turn down our music if any other source is playing and turn it back up if not. and also move the Tasks to here. lets start with tasks
