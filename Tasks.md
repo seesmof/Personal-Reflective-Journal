@@ -9,11 +9,11 @@
 
 ###### Coding
 
-- [ ] code: fork Habitica-Add-Task and create your own project based off of that
+- [ ] fork Habitica-Add-Task and create your own project based off of that
   - [ ] [repo](https://github.com/sardach/Habitica-Add-Task/tree/main)
-- [ ] code: finish training-program-guide with React and Next.JS
+- [ ] finish training-program-guide with React and Next.JS
   - [ ] change gifs to actual videos, but add them without controls and make sure their aspect ratios are all 16:9
-  - [ ] clean up code: separate everything into components, figure out how to make custom hooks where needed
+  - [ ] clean up separate everything into components, figure out how to make custom hooks where needed
   - [ ] figure out custom hooks and implement where needed
   - [ ] add variable break time based on the one for each exercsie
   - [ ] add workout analytics after completion where you show total workout time, time for each exercise, etc.
@@ -41,6 +41,31 @@
 - [ ] add web interface to this repository
   - [ ] consists of two pages - journal and tasks
     - [ ] journal
-      - [ ] add a sort of feed of journal entries at the main page that will automatically add local time for you and
+      - [ ] add a sort of feed of journal entries at the main page that will automatically add local time for you and adds the entry to the main file after you add it
       - [ ] make sure it supports markdown
     - [ ] tasks
+      - [ ] add some useful cool infographics and ability to see notes for tasks, so probably make each note a separate page
+      - [ ] add date, maybe sorting on importance or date, stuff like that. generally make sure it looks good and is useful
+- [ ] maintain twitch-ai-chatbot
+  - [ ] For `setup.py` add ability to switch to Ukrainian version
+- [ ] finish ber-ai-generative-art project with React and routing
+- [ ] finish regex-golf with React
+- [ ] finish shopping-cart-with-useReducer with React
+  - [ ] [repo](https://github.com/seesmof/shopping-cart-with-useReducer)
+- [ ] finish memory-cards project with React
+- [ ] fill in the new classes in gcalendar-automation whenever you have the year two term one schedule
+
+###### Movies
+
+- [ ] Blade Runner 2049
+- [ ] Dirty Dancing
+- [ ] Harakiri
+- [ ] Asteroid City
+- [ ] Squid Game - TV Show
+- [ ] The Man in The High Castle - TV Show
+- [ ] Westworld - TV Show
+
+###### Goals
+
+- [ ] learn Vim in VS Code
+- [ ] learn to type 100WPM with 95%
