@@ -28,3 +28,11 @@ This repository contains my personal journal. Made with Markdown.
 This project is licensed under the [MIT License](./LICENSE).
 
 <p align="right"><a href="#readme-top"><strong>Back to top</strong></a></p>
+
+```
+=IF(COUNTIF(E15:AI15;"Р")=0; SUM(E16:AI16); "")
+```
+
+```
+=IF(COUNTIF(E15:AI15;"Р")=0; SUM(E16:AI16); SUMIF(E16:AI16;"<>";IF(E15:AI15<>"Р";E16:AI16;"")))
+```
