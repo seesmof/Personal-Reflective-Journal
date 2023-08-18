@@ -1,0 +1,346 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "vscode-icons",
+  "C_Cpp.default.compilerPath": "d:\\programs\\mingw64\\mingw64\\bin\\g++.exe",
+  "explorer.confirmDelete": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.fontVariations": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Cascadia Code",
+  "git.autofetch": true,
+  "editor.wordWrap": "on",
+  "files.associations": {
+    "*.py": "python"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python",
+    "editor.formatOnType": true
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "git.confirmSync": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.openRepositoryInParentFolders": "always",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "gaac.forceLowerCase": true,
+  "gaac.replacePatternWith": [
+    {
+      "pattern": "/^.editorconfig/",
+      "with": "editorconfig"
+    },
+    {
+      "pattern": "/^.gitignore/",
+      "with": "git"
+    },
+    {
+      "pattern": "/^.travis/",
+      "with": "travis"
+    },
+    {
+      "pattern": "/^.vscodeignore/",
+      "with": "vscode"
+    },
+    {
+      "pattern": "/^CHANGELOG[^:]*/",
+      "with": "changelog"
+    },
+    {
+      "pattern": "/^Godeps[^:]*/",
+      "with": "godep"
+    },
+    {
+      "pattern": "/^LICENSE[^:]*/",
+      "with": "license"
+    },
+    {
+      "pattern": "/^Makefile[^:]*/i",
+      "with": "makefile"
+    },
+    {
+      "pattern": "/^(npm-shrinkwrap|.npmignore|package(-lock)?)[^:]*/",
+      "with": "npm"
+    },
+    {
+      "pattern": "/^webpack[^:]*/",
+      "with": "webpack"
+    },
+    {
+      "pattern": "/^README[^:]*/",
+      "with": "readme"
+    },
+    {
+      "pattern": "/^src//",
+      "with": ""
+    }
+  ],
+  "explorer.confirmDragAndDrop": false,
+  "html.format.contentUnformatted": "",
+  "editor.linkedEditing": true,
+  "editor.accessibilitySupport": "off",
+  "codeium.enableConfig": {
+    "*": true,
+    "asm-intel-x86-generic": true
+  },
+  "indentRainbow.excludedLanguages": ["plaintext"],
+  "workbench.editorAssociations": {
+    "*.md": "default",
+    "*.png": "imagePreview.previewEditor",
+    "*.pdf": "cweijan.officeViewer"
+  },
+  "cSpell.enableFiletypes": ["!cpp", "!markdown", "!python"],
+  "GitCommitPlugin.CustomCommitType": [],
+  "GitCommitPlugin.Templates": [],
+  "gitdoc.commitMessageFormat": "🌿: FFFF",
+  "gitdoc.commitValidationLevel": "none",
+  "gitdoc.enabled": true,
+  "gitdoc.autoCommitDelay": 300000,
+  "git.ignoreLegacyWarning": true,
+  "git.confirmForcePush": false,
+  "git.confirmNoVerifyCommit": false,
+  "warmUp.switchNaturalLanguage": "englishTop1000",
+  "warmUp.changeCount": "30",
+  "codesnap.transparentBackground": true,
+  "codesnap.backgroundColor": "",
+  "codesnap.shutterAction": "copy",
+  "codesnap.containerPadding": ".2em",
+  "codesnap.boxShadow": "0",
+  "easycode.userEmail": "seesmwork@gmail.com",
+  "Codegeex.Privacy": true,
+  "conventionalCommits.silentAutoCommit": true,
+  "conventionalCommits.gitmoji": false,
+  "headwind.prependCustomClasses": true,
+  "codingTracker.moreThinkingTime": 300000,
+  "commentAnchors.tags.endTag": "/",
+  "commentAnchors.tags.anchors": {
+    "ANCHOR": {
+      "iconColor": "default",
+      "highlightColor": "#A8C023",
+      "scope": "file"
+    },
+    "TODO": {
+      "iconColor": "blue",
+      "highlightColor": "#3ea8ff",
+      "scope": "workspace"
+    },
+    "FIXME": {
+      "iconColor": "red",
+      "highlightColor": "#F44336",
+      "scope": "workspace"
+    },
+    "STUB": {
+      "iconColor": "purple",
+      "highlightColor": "#BA68C8",
+      "scope": "file"
+    },
+    "NOTE": {
+      "iconColor": "orange",
+      "highlightColor": "#FFB300",
+      "scope": "file"
+    },
+    "REVIEW": {
+      "iconColor": "green",
+      "highlightColor": "#64DD17",
+      "scope": "workspace"
+    },
+    "SEC": {
+      "iconColor": "blurple",
+      "highlightColor": "#896afc",
+      "scope": "workspace",
+      "behavior": "region"
+    },
+    "LINK": {
+      "iconColor": "#2ecc71",
+      "highlightColor": "#2ecc71",
+      "scope": "workspace",
+      "behavior": "link"
+    },
+    "SECTION": {
+      "scope": "file",
+      "highlightColor": "#00D989",
+      "iconColor": "#00D989",
+      "styleMode": "full",
+      "isBold": true,
+      "isItalic": true,
+      "behavior": "anchor"
+    },
+    "SUBSECTION": {
+      "scope": "file",
+      "highlightColor": "#FFA500",
+      "iconColor": "#FFA500",
+      "styleMode": "full",
+      "isBold": true,
+      "isItalic": true,
+      "behavior": "anchor"
+    },
+    "COMPONENT": {
+      "scope": "file",
+      "highlightColor": "#FF72E6",
+      "iconColor": "#FF72E6",
+      "styleMode": "full",
+      "isBold": true,
+      "isItalic": true,
+      "behavior": "anchor"
+    }
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "editor.renderWhitespace": "all",
+  "vscode-openai.serviceProvider": "VSCode-OpenAI",
+  "editor.fontWeight": "normal",
+  "editor.quickSuggestions": {
+    "comments": "on",
+    "strings": "on"
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "todo-tree.highlights.customHighlight": {
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "XXX": {
+      "icon": "x"
+    },
+    "[ ]": {
+      "icon": "issue-draft"
+    },
+    "[x]": {
+      "icon": "issue-closed"
+    }
+  },
+  "quokka.automaticRestart": true,
+  "code-runner.executorMapByFileExtension": {
+    ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
+    ".vbs": "cscript //Nologo",
+    ".scala": "scala",
+    ".jl": "julia",
+    ".cr": "crystal",
+    ".ml": "ocaml",
+    ".zig": "zig run",
+    ".exs": "elixir",
+    ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    ".rkt": "racket",
+    ".scm": "csi -script",
+    ".ahk": "autohotkey",
+    ".au3": "autoit3",
+    ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
+    ".kts": "kotlinc -script",
+    ".dart": "dart",
+    ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    ".hs": "runhaskell",
+    ".nim": "nim compile --verbosity:0 --hints:off --run",
+    ".csproj": "dotnet run --project",
+    ".fsproj": "dotnet run --project",
+    ".lisp": "sbcl --script",
+    ".kit": "kitc --run",
+    ".v": "v run",
+    ".vsh": "v run",
+    ".sass": "sass --style expanded",
+    ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    ".ring": "ring",
+    ".sml": "cd $dir && sml $fileName"
+  },
+  "code-runner.executorMap": {
+    ".ts": "ts-node",
+    "python": "py"
+  },
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.startInInsertMode": true,
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.scale": 2,
+  "editor.minimap.autohide": true,
+  "todo-tree.general.statusBar": "tags",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "FIX"
+  ],
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "joplin.sortNotes": true,
+  "joplin.token": "f5a08e020caedecb83b8d074fe1ecca1568488b309c7fb6dca094319cf64befdfb9345c9cb99e273e9e7cd1edfd3581a47532ff100e376a61714e775bdfd6b99",
+  "leetcode.workspaceFolder": "d:\\repos\\leetcode-solutions\\solutions",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.defaultLanguage": "typescript",
+  "leetcode.hint.commandShortcut": false,
+  "projectManager.git.baseFolders": ["D:\\repos"],
+  "projectManager.sortList": "Name",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
+  "task.problemMatchers.neverPrompt": {
+    "shell": true
+  },
+  "emmet.includeLanguages": {
+    "javascriptreact": "jsx",
+    "typescriptreact": "tsx",
+    "javascript": "js",
+    "typescript": "ts",
+    "css": "css",
+    "less": "less",
+    "scss": "scss",
+    "sass": "sass",
+    "xml": "xml",
+    "json": "json",
+    "yaml": "yaml",
+    "markdown": "markdown",
+    "html": "html",
+    "vue": "vue",
+    "svelte": "svelte",
+    "handlebars": "handlebars"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.compactFolders": false
+}
